@@ -27,7 +27,7 @@ In line following robot,  the basic goal is to move robot such that it won't mov
 Let’s define the problem statement. Idea is to follow the line. So try to track the edge of the path and reduce overall error in real time. 
 Since the color sensor is used to detect line, let’s say for black it returns 50 and for white, it returns 40. To find out midpoint where colour sensor should be pointed, below equation can be used. 
 
-  midpoint = black + (black-white)/2
+     midpoint = black + (black-white)/2
 
 The error can be defined as 
 
