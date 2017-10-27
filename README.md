@@ -73,4 +73,6 @@ To turn Kp, Ki and Kd values, I have set Ki and Kd values to zero and put Kp to 
 
 LEGO Mindstorms file for PID controller can be found here: https://github.com/GPrathap/LineFollowingRobot/blob/master/LineFollowingRobot.ev3  
 
+LineFollowingRobot.ev3  script you can change Kp, Ki and Kd coefficients. In this script Kp, Ki and Kd are denoted as a,b and c respectively. My final calibration those coefficients were a=0.8, b=2.6 and c=8.8. 
+
 Result in action: https://www.youtube.com/watch?time_continue=1&v=3Iw4T13xOgU
