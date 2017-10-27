@@ -76,3 +76,8 @@ LEGO Mindstorms file for PID controller can be found here: https://github.com/GP
 LineFollowingRobot.ev3  script you can change Kp, Ki and Kd coefficients. In this script Kp, Ki and Kd are denoted as a,b and c respectively. My final calibration those coefficients were a=0.8, b=2.6 and c=8.8. 
 
 Result in action: https://www.youtube.com/watch?time_continue=1&v=3Iw4T13xOgU
+
+Reference:
+1. http://thetechnicgear.com/2014/03/howto-create-line-following-robot-using-mindstorms/
+2. http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html
+
