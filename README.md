@@ -40,9 +40,7 @@ Up to now, we are able to reduce the current error (Kp) and the previous error (
 ## Color Sensor Calibration
 
 This is nothing but need to find a value for black and white space. This can be done in Matlab or using  LEGO Mindstorms SDK,
-This Matlab script can be used to read the colour sensor values: 
-
-This is the  LEGO Mindstorms configuration to read the colour sensor values. In this, I have added an additional sensor (touch) for the convenience. First, it reads black or white and when it press it reads again. In this first, it should read white and then black. 
+This is the  LEGO Mindstorms configuration to read the colour sensor values. In this, I have added an additional sensor (touch) for the convenience. First, reads black or white and when it press again it reads again. In here, it should read white and then black. 
 ![Optional Text](../master/images/image_1.png) 
 ![Optional Text](../master/images/image_2.png) 
 
