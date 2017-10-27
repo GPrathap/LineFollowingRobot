@@ -77,7 +77,7 @@ LineFollowingRobot.ev3  script you can change Kp, Ki and Kd coefficients. In thi
 
 Result in action: https://www.youtube.com/watch?time_continue=1&v=3Iw4T13xOgU
 
-Reference:
+## Reference:
 1. http://thetechnicgear.com/2014/03/howto-create-line-following-robot-using-mindstorms/
 2. http://www.inpharmix.com/jps/PID_Controller_For_Lego_Mindstorms_Robots.html
 
