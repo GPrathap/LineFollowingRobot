@@ -18,7 +18,7 @@ After playing around those death ended problems I have decided to use LEGO Minds
 
 ## Design Idea
 
-
+![Optional Text](../master/images/image_0.png)
 
 In line following robot,  the basic goal is to move robot such that it won't move away from the path is being followed. If it moves away, need to bring it back to the path in an optimal manner. To achieve this goal, PID controller can be employed to reduce the overall error.
 
@@ -41,9 +41,10 @@ Up to now, we are able to reduce the current error (Kp) and the previous error (
 
 This is nothing but need to find a value for black and white space. This can be done in Matlab or using  LEGO Mindstorms SDK,
 This Matlab script can be used to read the colour sensor values: 
+
 This is the  LEGO Mindstorms configuration to read the colour sensor values. In this, I have added an additional sensor (touch) for the convenience. First, it reads black or white and when it press it reads again. In this first, it should read white and then black. 
-![image alt text](image_1.png)    
-![image alt text](image_2.png)
+![Optional Text](../master/images/image_1.png) 
+![Optional Text](../master/images/image_2.png) 
 
 ## Intuition Behind Selecting Proper Values for Kp, Ki and Kd in PID Controller 
 
@@ -70,6 +71,6 @@ To turn Kp, Ki and Kd values, I have set Ki and Kd values to zero and put Kp to 
 
 ## Final Solution
 
-LEGO Mindstorms file for PID controller can be found here.  
+LEGO Mindstorms file for PID controller can be found here: https://github.com/GPrathap/LineFollowingRobot/blob/master/LineFollowingRobot.ev3  
 
-Result: 
+Result in action: https://www.youtube.com/watch?time_continue=1&v=3Iw4T13xOgU
